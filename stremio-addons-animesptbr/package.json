@@ -1,0 +1,17 @@
+{
+  "name": "stremio-animes-dublado-ptbr",
+  "version": "1.0.0",
+  "description": "Addon oficial de animes dublados em português (Brasil) para Stremio",
+  "main": "addon.js",
+  "scripts": {
+    "start": "node addon.js"
+  },
+  "dependencies": {
+    "stremio-addon-sdk": "^1.2.0",
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "lodash": "^4.17.21"
+  },
+  "author": "Anime Community",
+  "license": "MIT"
+}
