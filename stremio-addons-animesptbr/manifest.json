@@ -1,0 +1,24 @@
+{
+  "id": "community.animes-dublado-ptbr",
+  "version": "1.0.0",
+  "name": "Animes Dublado PT-BR (Oficiais)",
+  "description": "Assista animes dublados em português (Brasil) de fontes oficiais: Crunchyroll, HIDIVE, Netflix BR, Prime Video BR e Anime-Planet.",
+  "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png",
+  "contactEmail": "support@animesdublados.ptbr",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["series"],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "ptbr-dubbed",
+      "name": "Animes Dublados PT-BR",
+      "extra": [
+        {
+          "name": "source",
+          "isRequired": true,
+          "options": ["crunchyroll", "hidive", "netflix", "primevideo", "animeplanet"]
+        }
+      ]
+    }
+  ]
+}
